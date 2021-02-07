@@ -1,7 +1,7 @@
 signup:
   build: .
   ports:
-    - "80:5000"
+    - "5000:5000"
   environment:
     - APP_CONFIG=application.config
     - AWS_ACCESS_KEY_ID
